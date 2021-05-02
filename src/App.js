@@ -4,7 +4,6 @@ import './App.css';
 import axios from 'axios';
 import {TaskConsumer} from './context';
 import {Link, Route, Switch} from 'react-router-dom';
-import 'bootstrap/dist/css/bootstrap.min.css';
 import Landing from './components/Landing';
 import Dashboard from './components/Dashboard'; 
 
