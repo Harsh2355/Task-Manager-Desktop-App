@@ -1,0 +1,12 @@
+
+@media (max-width: 420px) {
+    .title {
+        font-size: 14px !important;
+    }
+
+    .logout {
+        font-size: 12px !important;
+        margin-top: 5px !important;
+        margin-right: -10px;
+    }
+}

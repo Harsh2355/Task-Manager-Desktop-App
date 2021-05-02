@@ -1,0 +1,83 @@
+.form-container {
+    margin: 0 auto;
+    width: 70%;
+}
+
+.password-restrictions {
+    width: 40%;
+    font-size: 13px !important;
+    line-height: 25px;
+}
+
+.password-restrictions ul li {
+    color: grey
+}
+
+.password-restrictions h6 {
+    color:  darkslategray
+}
+
+.form-control {
+    margin-top: 0px !important;
+}
+
+.new-user-btn {
+    float: right;
+    margin: 10px;
+}
+
+.signup-area {
+    display: flex;
+}
+
+.signup-fields {
+   width: 55%;
+}
+
+@media (max-width: 1100px) {
+    .signup-area {
+        flex-direction:column;
+    }
+
+    .signup-fields {
+        width: 100%;
+     }
+
+     .form-control {
+        padding:6px 13px;
+        margin: 0px;
+        font-size: 18px;
+     }
+
+     .password-restrictions {
+        width: 100%;
+        margin-top: 10px;
+        margin-bottom: 10px;
+        text-align: center;
+        font-size: 12px !important;
+        line-height: 15px;
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .password-restrictions h6 {
+        font-size: 12px;
+    }
+
+    .form-control {
+        padding:0 0 0 13px;
+        margin: 0;
+        font-size: 10px;
+    }
+
+    #emailHelp {
+        font-size: 10px;
+    }
+}
+
+@media (max-width: 445px) {
+    .password-restrictions {
+        display:block;
+        text-align: left;
+    }
+}

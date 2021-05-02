@@ -1,0 +1,51 @@
+.form-container {
+    margin: 0 auto;
+    width: 70%;
+}
+
+.new-user-btn {
+    float: right;
+    margin: 10px;
+}
+
+@media (max-width: 900px) {
+    .form-container {
+        margin: 0 auto;
+        width: 95% !important;
+    }
+    
+    .form-group {
+        margin-top: 20px !important;
+    }
+
+    .form-control {
+        padding:6px 13px;
+        margin: 0px;
+        font-size: 18px !important;
+    }
+
+    .btn {
+        margin-top: 20px;
+        font-size: 16px;
+    }
+}
+
+
+
+@media (max-width: 650px) {
+    .form-container {
+        margin: 0 auto;
+        width: 95% !important;
+    }
+    
+    .form-control {
+        padding:3px 13px;
+        margin: 0;
+        font-size: 14px !important;
+    }
+
+    .btn {
+        margin-top: 10px;
+        font-size: 14px;
+    }
+}

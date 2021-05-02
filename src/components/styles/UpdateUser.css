@@ -1,0 +1,61 @@
+.updateContainer {
+    width: 60%;
+    margin: 135px auto;
+    padding: 15px 120px;
+    background-color: #e2eff1;
+    box-shadow: 0 10px 10px rgba(0, 0, 0, 0.2);
+}
+
+.data {
+    margin-bottom: 20px;
+}
+
+.data-label {
+    font-size: 18px;
+    margin-bottom: 12px;
+    font-weight: bold;
+    color: #1877f2;
+}
+
+.data input {
+    width: 90%;
+    margin-top: 5px;
+    padding: 3px 14px;    
+}
+
+.apply-btn {
+    margin: 0 48%;
+    padding: 5px 13px 7px 13px;
+    font-size: 16px !important;
+    background-color: #1877f2;
+    color: white;
+    border: none;
+}
+
+.return {
+    margin-left: 98%;
+    background-color: #2a265f;
+    color: white;
+}
+
+@media (max-width: 870px) {
+    .updateContainer {
+        width: 90%;
+    }
+}
+
+@media (max-width: 740px) {
+    .updateContainer {
+        padding: 15px 30px;
+    }
+    
+    .data input {
+        width: 100%;
+        margin-top: 5px;
+        padding: 3px 14px;    
+    }
+
+    .return {
+        margin-left: 86%;
+    }
+}

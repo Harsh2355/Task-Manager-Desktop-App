@@ -1,0 +1,410 @@
+.ViewContainer {
+    display: flex;
+}
+
+.account-card-container {
+    background-color: #d1d1d1;
+    color: black;
+    width: 30%;
+    margin-left: 2%;
+    padding: 14px !important;
+    border-radius: 1%;
+    border: 3px solid grey;
+    position: relative;
+}
+
+.updateCard {
+    height: 93.34px !important;
+    width: 100%;
+}
+
+.filter-container {
+    margin-left: 4%;
+    width: 64%;
+}
+
+.filter-options {
+    display: flex;
+    width:100%;
+}
+
+.options {
+    margin-right: 10%;
+    font-size: 15px;
+}
+
+.filter-heading {
+    font-size: 17px;
+    font-weight: bold;
+}
+
+.taskdetails {
+    margin: 30px 2%;
+}
+
+.TaskCard {
+    float: left;
+    width:45%;
+    /* height: 100px; */
+    height: 100%;
+    margin: 30px 20px;
+    display: flex;
+    border-radius: 10px !important;
+    box-shadow: 0 10px 10px rgba(0, 0, 0, 0.2);
+    font-family: 'Oswald', sans-serif;
+}
+
+.TaskBlue {
+    width: 20%;
+    background-color: #FDCB6E;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+}
+
+.TaskWhite {
+    background-color: #F0F0F0;
+    width:80%;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+
+.task-num {
+    text-align: center;
+    padding: 28px 0px;
+    font-size: 25px;
+    color:white;
+}
+
+.underline {
+    margin: 0 5%;
+    width: 90%;
+    border: 1px solid #FDCB6E;
+    background-color: #FDCB6E;
+}
+
+.task-completion {
+    text-align:center;
+    font-size: 15px;
+    padding: 10px 0px;
+    text-transform: capitalize;
+    letter-spacing: 1px;
+}
+
+.task-desc {
+    text-align: center;
+    letter-spacing: 1px;
+    font-size: 16px;
+    padding: 10px 0px;
+    text-transform: capitalize;
+}
+
+.filter-search {
+    width: 90% !important;
+    padding: 6px 8px;
+}
+
+.apply {
+    height: 100%;
+    margin-top: 30px;
+    padding-left: 14px;
+    padding-right: 14px;
+    padding-top: 5px;
+    padding-bottom: 7px;
+    font-size: 15px;
+    background-color: #1877f2;
+    color:white;
+    border: none;
+}
+
+.apply:hover {
+    background-color: #0460d7;
+}
+
+.delete_task {
+    margin-left: 82%;
+    margin-top: -8%;
+}
+
+.delete_task:hover {
+    font-size: 21px; 
+    color: red;
+    cursor: pointer;
+}
+
+.update_task {
+    margin-left: 90%;
+    margin-top: -6%;
+}
+
+.update_task:hover {
+    font-size: 21px; 
+    color: blue;
+    cursor: pointer;
+}
+
+.updateTask {
+    background-color: #F0F0F0;
+    width: 100%;
+    /* height: 100px; */
+}
+
+.delete_all_tasks {
+    padding: 7px 14px;
+    font-size: 15px;
+    background-color: red;
+    color: white;
+    border: none;
+    margin-top: 40px;
+    margin-left:45%;
+}
+
+.delete_all_tasks:hover {
+    background-color: brown;
+}
+
+.loading {
+    margin: 300px 47%;
+}
+
+.loading p {
+    font-size: 25px;
+    font-weight: bold;
+    letter-spacing: 1px;
+}
+
+@media (max-width: 1100px) {
+    .ViewContainer {
+        display: block;
+    }
+
+    .account-card-container {
+        width: 60%;
+        margin: 0 auto;
+    }
+
+    .filter-container {
+        margin-top: 20px;
+        margin-bottom: 20px;
+        margin-left: 20%;
+        margin-right: 10%;
+        width: 80%;
+    }
+    
+    .options {
+        margin-right: 10%;
+    }
+
+    .task-completion {
+        font-size: 13px;
+        padding: 10px 0px;
+    }
+
+    .task-desc {
+        font-size: 14px;
+    }
+
+    .resize {
+        margin-right: 0 !important;
+    }
+    
+    .update_task {
+        margin-left: 90%;
+        margin-top: -7%;
+    }
+    
+}
+
+@media (max-width: 870px) {
+    .filter-container {
+        margin-top: 20px;
+        margin-bottom: 20px;
+        margin-left: 20%;
+        margin-right: 10%;
+        width: 70%;
+    }
+    
+    .options {
+        margin-right: 6%;
+    }    
+
+    .updateCard {
+        height: 82.67px !important;
+        width: 100%;
+    }
+
+    .task-num {
+        text-align: center;
+        padding: 28px 0px;
+        font-size: 18px;
+        color:white;
+    }
+
+    .TaskCard {
+        width:45%;
+        margin: 30px 2.5%;
+    }
+
+    .task-completion {
+        font-size: 11px;
+        padding: 10px 0px;
+    }
+
+    .task-desc {
+        font-size: 12px;
+    }
+    .delete_task {
+        margin-left: 78%;
+        margin-top: -10%;
+    }
+    
+    .delete_task:hover {
+        font-size: 21px; 
+        color: red;
+        cursor: pointer;
+    }
+    
+    .update_task:hover {
+        font-size: 21px; 
+        color: blue;
+        cursor: pointer;
+    }
+    
+    .update_task {
+        margin-left: 87%;
+        margin-top: -9%;
+    }   
+    
+}
+
+@media (max-width: 740px) {
+    .filter-container {
+        width: 80%;    
+        margin-right: 10%;
+        margin-left: 10%;
+    }
+    
+    .options {
+        margin-right: 6%;
+        font-size: 13px !important;
+    }    
+
+    .task-num {
+        font-size: 25px;
+    }
+
+    .TaskCard {
+        width:90%;
+        margin: 30px 5% 30px 5%;
+    }
+
+    .task-completion {
+        font-size: 15px;
+    }
+
+    .task-desc {
+        font-size: 17px;
+    }
+
+    .resize {
+        font-size: 13px;
+    }
+
+    .delete_task {
+        margin-left: 82%;
+        margin-top: -7%;
+    }
+    
+    .update_task {
+        margin-left: 90%;
+        margin-top: -5%;
+    }
+    
+}
+
+@media (max-width: 530px) {
+    .filter-container {
+        width: 80%;    
+        margin-right: 10%;
+        margin-left: 15%;
+    }
+    
+    .options {
+        margin-right: 4%;
+        font-size: 11px !important;
+    }    
+
+    .options input {
+        margin-top: 2.5px;
+        margin-bottom: 2.5px;
+    }
+
+    .account-card-container {
+        width: 80%;
+        margin-left: 10%;
+        margin-right: 10%;
+    }
+
+    .info p {
+        font-size: 13px !important;
+    } 
+
+    .account-card-container button {
+        font-size: 13px !important;
+    }
+
+    .task-num {
+        font-size: 20px;
+    }
+
+    .task-completion {
+        font-size: 12px;
+    }
+
+    .task-desc {
+        font-size: 13px;
+    }
+
+    .delete_task {
+        margin-left: 82%;
+        margin-top: -8%;
+    }
+    
+    .update_task {
+        margin-left: 90%;
+        margin-top: -7%;
+    }
+}
+
+@media (max-width: 435px) {
+    .filter-container {
+        width: 92%;    
+        margin-right: 3%;
+        margin-left: 5%;
+    }   
+
+    .resize {
+        font-size: 11px;
+    }
+
+    .task-num {
+        font-size: 17px;
+    }
+
+    .task-completion {
+        font-size: 11px;
+    }
+
+    .task-desc {
+        font-size: 11px;
+    }
+
+    .delete_task {
+        margin-left: 82%;
+        margin-top: -10%;
+    }
+    
+    .update_task {
+        margin-left: 90%;
+        margin-top: -9%;
+    }
+}

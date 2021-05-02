@@ -3,11 +3,17 @@ import ReactDOM from 'react-dom';
 import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
+import TaskProvider from './context';
+import {HashRouter as Router} from 'react-router-dom';
 
 ReactDOM.render(
-  <React.StrictMode>
-    <App />
-  </React.StrictMode>,
+<TaskProvider>
+  <Router>
+    <React.StrictMode>
+      <App />
+    </React.StrictMode>,
+  </Router>
+</TaskProvider>,
   document.getElementById('root')
 );
 

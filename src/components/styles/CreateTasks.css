@@ -1,0 +1,122 @@
+.create-task-container {
+    width: 60%;
+    height: 370px;
+    border: 5px solid #FDCB6E;
+    border-radius: 15%; 
+    margin: 150px auto;
+    background-color: #F0F0F0;
+    box-shadow: 0 10px 10px rgba(0, 0, 0, 0.2);
+}
+
+.partition {
+    width: 90%;
+    border: 2px solid #FDCB6E;
+    background-color: #FDCB6E;
+    margin: 0 auto;
+}
+
+.create-task-container h6 {
+    text-align: center;
+    margin: 22px 0px;
+    font-size: 22px;
+    text-transform: uppercase;
+    word-spacing: 3px;
+    letter-spacing: 1px;
+}
+
+.desc p {
+    text-align: center;
+    margin: 20px auto;
+    font-size: 18px;
+    font-family:cursive; 
+}
+
+.desc input {
+    width: 80%;
+    margin: 0 10%;
+    padding: 3px 10px;
+}
+
+.comp p {
+    margin: 20px 0;
+    text-align: center;
+    font-size: 18px;
+    font-family:cursive;
+}
+
+.comp input {
+    margin-top: 20px;
+    margin-left: 25%;
+    margin-right: 10px;
+}
+
+.create-btn {
+    margin-left: 45%;
+    width: 80px;
+}
+
+.done {
+    font-weight: bold;
+    font-size: 60px;
+    color: green;
+    text-align: center;
+    margin-top: 110px;
+    margin-bottom: 20px;
+}
+
+.new-task-btn {
+    margin: 0 40%;
+    height: 50px;
+}
+
+@media (max-width: 1100px) {
+    .create-task-container {
+        width: 70%;
+    }
+}
+
+@media (max-width: 870px) {
+    .create-task-container {
+        width: 90%;
+    }
+}
+
+@media (max-width: 740px) {
+    .comp div {
+        margin-left: 10%;
+    }
+    
+    .comp input {
+        margin-left: 15%;
+    }    
+}
+
+@media (max-width: 530px) {
+    .comp div {
+        margin-left: 0%;
+    }
+    
+    .comp input {
+        margin-left: 15%;
+    }
+
+    .create-btn {
+        margin-left: 40%;
+        width: 70px;
+    }
+
+    .desc p {
+        text-align: center;
+        margin: 20px auto;
+        font-size: 15px;
+        font-family:cursive; 
+    }
+
+    .comp p {
+        font-size: 15px;
+    }
+
+    .comp div span {
+        font-size: 13px !important;
+    }
+}

@@ -1,0 +1,77 @@
+.update-container {
+    position: relative;
+}
+
+.update-form {
+    width : 80% !important;
+}
+
+.description {
+    margin: 2px 15px;
+    width: 75%;
+    padding: 7px 10px;
+    background-color: #F0F0F0;
+    border: none;
+    opacity: 0.5;
+    font-size: 17px; 
+}
+
+.completed {
+    margin: 0 0 0 10%;
+}
+
+.completed input {
+    margin-right: 2%;
+}
+
+.completed span div {
+    display: inline;
+    margin-right: 4%;
+    font-size: 17px;
+}
+
+#updateApply {
+    position: absolute;
+    left: 85%;
+    top: 45%;
+    /* float: right;
+    margin-top: -6%;
+    margin-right: 3%; */
+}
+
+.apply-update {
+    padding-left: 14px;
+    padding-right: 14px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    font-size: 15px;
+    background-color: #1877f2;
+    color:white;
+    border: none;
+}
+
+@media (max-width: 1100px) {
+    #updateApply {
+        position: absolute;
+        left: 82%;
+        top: 45%;
+    }
+}
+
+@media (max-width: 870px) {
+    .description {
+        font-size: 13px; 
+    }
+    
+    .completed span div {
+        font-size: 13px;
+    }
+    
+    #updateApply {
+        position: absolute;
+        left: 78%;
+        top: 45%;
+        font-size: 13px;
+    }
+
+}
