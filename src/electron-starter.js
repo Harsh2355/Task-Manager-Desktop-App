@@ -18,7 +18,7 @@ function createWindow() {
 
     // and load the index.html of the app.
     //mainWindow.loadURL('http://localhost:3000');
-    mainWindow.loadURL('placeholder');
+    mainWindow.loadURL('https://yourtaskbuddy-hk.herokuapp.com');
 
     // Open the DevTools.
     mainWindow.webContents.openDevTools();
